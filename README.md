@@ -1,5 +1,5 @@
 # data-visualization
-数据可视化：基于d3
+数据可视化：基于d3.js
 
 ## 网络攻击地图
 
