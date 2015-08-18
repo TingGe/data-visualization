@@ -1,0 +1,17 @@
+{"nodes":[
+{"name":"总点击量", "level": 0},
+{"name":"首页", "level": 1},
+{"name":"page2", "level": 1},
+{"name":"page3", "level": 2},
+{"name":"page4", "level": 3},
+{"name":"page5", "level": 2}
+],
+"links":[
+{"source":0,"target":1,"value":3},
+{"source":0,"target":2,"value":3},
+{"source":1,"target":3,"value":1},
+{"source":1,"target":4,"value":1},
+{"source":2,"target":3,"value":2},
+{"source":3,"target":4,"value":2},
+{"source":1,"target":5,"value":1}
+]}

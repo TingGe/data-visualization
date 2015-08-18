@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>网络攻击地图</title>
+  <link rel="stylesheet" type="text/css" href="./styles/ipviking.css">
+  <link rel="stylesheet" type="text/css" href="./styles/flags.css">
+  <link rel="stylesheet" type="text/css" href="./styles/fonts.css">
+</head>
+
+<body class="f16">
+<div id="loading">
+  <h1>loading...</h1>
+</div>
+<div id="content">
+  <!--
+  <a href="http://map.e5195.com">
+    <img id="logo" src="images/norse-white.png" alt="Norse Corp">
+  </a>
+  -->
+  <div id="info"></div>
+
+  <div class="data box top-left gray-bg">
+    <a href="#" class="toggle" data-target="#left-table-container">
+      <div class="table-header">
+        <h1>
+          <span class="icon-open"></span>
+          攻击源
+        </h1>
+      </div>
+    </a>
+    <div id="left-table-container" class="table-container">
+      <table id="left-data">
+        <colgroup>
+          <col class="bar-col" span="1" />
+          <col class="total-count" span="1" />
+          <col class="data-label-small" span="1" />
+          <col class="data-label" span="1" />
+        </colgroup>
+        <tr>
+          <th></th>
+          <th><span class="icon-number"></span></th>
+          <th><span class="icon-country"></span></th>
+          <th>国家</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="data box top-right gray-bg">
+    <a href="#" class="toggle" data-target="#right-table-container">
+      <div class="table-header">
+        <h1>
+          <span class="icon-open"></span>
+          攻击目标						</h1>
+      </div>
+    </a>
+    <div id="right-table-container" class="table-container">
+      <table id="right-data">
+        <colgroup>
+          <col class="bar-col" span="1">
+          <col class="total-count" span="1">
+          <col class="data-label-small" span="1">
+          <col class="data-label" span="1">
+        </colgroup>
+        <tr>
+          <th></th>
+          <th><span class="icon-number"></span></th>
+          <th class="flag-col"><span class="icon-country"></span></th>
+          <th>国家</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="data bottom-right box gray-bg">
+    <a href="#" class="toggle" data-target="#bottom-right-table-container">
+      <div class="table-header">
+        <h1 class="table-header">
+          <span class="icon-open"></span>
+          攻击类型
+        </h1>
+      </div>
+    </a>
+
+    <div id="bottom-right-table-container">
+      <table id="bottom-right-data">
+        <colgroup>
+          <col class="bar-col" span="1">
+          <col class="total-count" span="1">
+          <col class="data-label-small" span="1">
+          <col class="data-label" span="1">
+          <col class="port-label" span="1">
+        </colgroup>
+        <tr>
+          <th></th>
+          <th><span class="icon-number"></span></th>
+          <th><span class="icon-threattype"></span></th>
+          <th>服务</th>
+          <th>端口</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="console" class="box gray-bg">
+    <a href="#" class="toggle" data-target="#console-table-container">
+      <div class="table-header">
+        <h1 class="table-header">
+          <span class="icon-open"></span>
+          攻击列表
+        </h1>
+      </div>
+    </a>
+    <div id="console-table-container">
+      <table id="events-data">
+        <colgroup class="second-level">
+          <col class="timestamp-col" span="1">
+          <col class="attacker-org-col left-border" span="1">
+          <col class="location-col" span="1">
+          <col class="attacker-ip-col" span="1">
+          <col class="location-col left-border" span="1">
+          <col class="service-col left-border" span="1">
+          <col class="port-col" span="1">
+        </colgroup>
+
+        <tr class="first-level">
+          <th></th>
+          <th colspan="3" class="attacker">攻击者</th>
+          <th class="target">被攻击者</th>
+          <th colspan="2">攻击</th>
+        </tr>
+
+        <tr class="second-level">
+          <th>时间</th>
+          <th>组织</th>
+          <th>位置</th>
+          <th>IP</th>
+          <th>位置</th>
+          <th>类型</th>
+          <th>端口</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="info-controls">
+    <div class="gray-bg information info-btn">
+      <span class="info-text icon-info"></span>
+    </div>
+    <div data-paused="false" class="gray-bg controls">
+      <span class="icon-pause play-pause"></span>
+    </div>
+  </div>
+</div>
+
+<div id="drawer">
+  <!-- <div id="nav-bottom-corner"></div> -->
+  <div id="drawer-content" class="blue-bg">
+    <div id="drawer-inner">
+      <div id="drawer-left">
+        <div id="legend-container"></div>
+        <footer></footer>
+      </div>
+    </div>
+  </div>
+  <!-- 提示消息 -->
+  <div id="message-panel" class="data box">
+    <div class="table-header gray-bg">
+      <h3>Message Dialog</h3>
+    </div>
+    <div id="message-container" class="black-solid table-container">
+      <span id="message-text"></span>
+      <button id="close-button" class="gray-bg" onClick="hideMessage();">Close</button>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="./scripts/d3.v3.min.js"></script>
+<script type="text/javascript" src="./scripts/queue.v1.min.js"></script>
+<script type="text/javascript" src="./scripts/topojson.v1.min.js"></script>
+<!--<script type="text/javascript" src="http://map.ipviking.com/ipviking.js"></script>-->
+<script type="text/javascript" src="./scripts/ipviking.js"></script>
+<script type="text/javascript" src="./scripts/presentations.js"></script>
+</body>
+</html>
+

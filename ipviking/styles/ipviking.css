@@ -1,0 +1,722 @@
+/*@import url(http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.useso.com/css?family=Oswald:400,300,700);*/
+@import url(opensans.css);
+@import url(oswald.css);
+
+body {
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    background: url(../images/DarkNoiseBackground.png);
+    font-family: "Oswald", "Open Sans", sans-serif;
+}
+
+ol {
+    list-style-type: none;
+    margin-left: -2.0em;
+}
+
+td {
+    font-family: "Open Sans", "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+
+th {
+    font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", "Open Sans", sans-serif;
+}
+
+#drawer {
+    position: absolute;
+    top: 48px;
+    right: 6px;
+    z-index: 100;
+    width: 180px;
+}
+
+.blue-bg {
+    background: rgb(0, 78, 176);
+    background: transparent\9;
+    background-color: rgb(0, 78, 176, 0.95);
+    border-radius: 4px;
+    border: 1px solid rgba(0, 78, 176);
+    border: 1px solid rgba(0, 78, 176, 0.95);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+#drawer-content {
+    height: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+#drawer-inner a,
+#drawer-content.info-btn {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#drawer-inner a:hover,
+#drawer-content .info-btn:hover {
+    color: rgb(20, 180, 255);
+}
+
+#drawer-inner {
+    padding: 1em;
+    width: 158px;
+    font-size: 11px;
+    font-family: "Open Sans", "Oswald", sans-serif;
+    font-weight: 300;
+    line-height: 13px;
+}
+
+#drawer-content h1 {
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: "Open Sans", "Oswald", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#drawer-left {
+    float: left;
+    width: 100%;
+}
+
+.table-ref {
+    font-family: "Oswald", "Open Sans", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+/*
+  This has awful performance...
+  #drawer-content .footer {
+  width: 480px;
+  position: absolute;
+  bottom: 0;
+  }
+  */
+
+nav {
+    /* background-color: rgba(0, 140, 240, 0.95);*/
+    background: linear-gradient(rgba(0, 138, 255, 0.5),
+                                rgba(0, 150, 255, 0.5)),
+    rgba(0, 0, 0, 0.8);
+    float: left;
+    width: 40px;
+    border-bottom-left-radius: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 0 0 -2.4em;
+}
+
+nav ul li {
+    margin: 0.2em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav ul li a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    border-top-color: white;
+    text-decoration: underline;
+}
+
+#content {
+    width: 100%;
+    opacity: 0;
+}
+
+#display-label-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#top-line {
+    width: 100%;
+    background-color: rgb(1, 73, 128);
+    height: 5px;
+}
+
+#logo {
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    width: 180px;
+    z-index: 100;
+}
+
+#loading {
+    position: absolute;
+    right: 4em;
+    bottom: 1em;
+}
+
+#info {
+    position: absolute;
+    right: 20em;
+    top: 1em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.icon {
+    width: 1em;
+}
+
+.buffer {
+    visibility: hidden;
+}
+
+.shadow {
+    -moz-box-shadow: 0 0 5px 5px rgb(40, 50, 80);
+    -webkit-box-shadow: 0 0 5px 5px rgb(40, 50, 80);
+    box-shadow: 0 0 5px 5px rgb(40, 50, 80);
+}
+
+.box {
+    position: absolute;
+    z-index: 20;
+}
+
+.gray-bg {
+    background: rgb(51,51,51);  
+    background: transparent\9;  
+    background: rgba(51,51,51,0.5);
+    border-radius: 4px;
+    border: 1px solid rgba(51, 51, 51);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.black-solid {
+    background-color: rgba(10, 20, 30, 0.8);
+    border: thin solid rgb(0, 180, 240);
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-box-shadow: 0 0 3px 1px rgb(0, 120, 240);
+    -moz-box-shadow: 0 0 3px 1px rgb(0, 120, 240);
+    box-shadow: 0 0 3px 1px rgb(0, 120, 240);
+}
+
+.table-container {
+    z-index: -2;
+}
+
+/*
+  .data table th {
+  color: rgb(45, 255, 254);
+  }
+  */
+
+.data {
+    width: 180px;
+}
+
+.data table tr {
+    line-height: 18px;
+    text-align: left;
+}
+
+.data table td,
+.data table th {
+    font-size: 12px;
+}
+
+.data table th {
+    font-size: 13px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.data table th [class^="icon-"], .data table th [class*=" icon-"] {
+    font-size: 16px;
+}
+
+.data table td span.numeric {
+    font-size: 10px;
+    font-family: "Open Sans Light", "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.data .flag {
+    margin-right: 20px;
+    height: 1.0em;
+}
+
+.data .numeric {
+    margin-right: 10px;
+}
+
+.data .icon-number {
+    margin-right: 8px;
+}
+
+.data colgroup .bar-col { width: 0; }
+.data colgroup .total-count { width: 2.6em; }
+.data colgroup .data-label-small { width: 1.6em; }
+.data colgroup .data-label { width: 10em; }
+.data colgroup .port-label { width: 2.8em; }
+
+
+.data tr.row:hover {
+    background-color: #0c2b4a;
+}
+
+.data table .bar {
+    position: absolute;
+    height: 20px;
+    margin-top: -10px;
+    background-color: #0c2b4a;
+    z-index: -1;
+    border-radius: 3px;
+    max-width: 98%;
+}
+
+.data table tr td:nth-child(2),
+.data table tr th:nth-child(2) {
+    text-align: right;
+    padding-right: 0.4em;
+}
+
+.port-circle {
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 0.5em;
+}
+
+.table-header {
+    text-align: center;
+    color: rgb(40, 255, 255);
+    text-transform: uppercase;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-bottom: 4px;
+}
+
+.table-header h1 {
+    margin: 0.4em 0.8em;
+    font-family: "Open Sans", "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.top-left {
+    top: 72px;
+    left: 6px;
+}
+
+.bottom {
+    bottom: 6px;
+}
+
+.top-right {
+    right: 6px;
+    top: 48px;
+}
+
+.bottom-right {
+    bottom: 50px;
+    right: 6px;
+}
+
+.info-controls {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 20;
+}
+
+.info-controls .icon-close {
+    font-size: 14px;
+}
+
+.info-controls > div {
+    float: right;
+    width: 86px;
+    height: 34px;
+}
+
+.info-controls > div:first-child {
+    margin-left: 6px;
+}
+
+.controls {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.controls:hover {
+    color: #00a6ff;
+    cursor: pointer;
+}
+
+.controls > span {
+    display: inline-block;
+    line-height: 34px;
+}
+
+.information {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.information:hover {
+    color: #00a6ff;
+    cursor: pointer;
+}
+
+.information > span {
+    line-height: 34px;
+    display: inline-block;
+}
+
+.world {
+    stroke: #555;
+    stroke-linejoin: round;
+}
+
+.tick {
+    stroke: white;
+}
+
+/* The data console */
+#console {
+    left: 6px;
+    bottom: 32px;
+    pointer-events: none;
+    padding: 6px 12px;
+}
+
+#console .table-header h1 {
+    margin: 0;
+    min-width: 156px;
+}
+
+#console .table-header {
+    margin-bottom: 0;
+}
+
+#console table {
+    font-size: 10px;
+    font-family: "Open Sans Normal", "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 12px;
+    border-collapse: collapse;
+}
+
+#console table td,
+#console table th {
+    text-shadow: none;
+    padding-right: 20px;
+}
+
+#console table td:last-child,
+#console table th:last-child {
+    padding-right: 0;
+}
+
+#console table tr.first-level {
+    font-size: 12px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#console table tr.second-level {
+    font-size: 10px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    line-height: 12px;
+    text-align: left;
+    padding-bottom: 0.2em;
+    font-weight: light;
+    text-transform: uppercase;
+}
+
+#console table tr.second-level th {
+    font-weight: light !important;
+}
+
+#console colgroup col.left-border {
+    padding-left: 0.5em;
+}
+
+#console table span.overflow {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 1.4em;
+}
+
+#console colgroup col.timestamp-col { width: 11em; }
+#console colgroup col.location-col { width: 130px; }
+#console colgroup col.attacker-org-col { width: 160px; }
+#console colgroup col.attacker-ip-col { width: 98px; }
+#console colgroup col.service-col { width: 70px; }
+#console colgroup col.port-col { width: 30px; }
+
+a.toggle {
+    color: rgb(55, 116, 172);
+    pointer-events: all;
+}
+
+#rate-graph {
+    z-index: 20;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    width: 100%;
+    height: 20px;
+}
+
+#drawer {
+    display: none;
+}
+
+#drawer .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#drawer .social-media li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#drawer .social-media li:last-child {
+    margin-right: 0;
+}
+
+#drawer .social-media a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+/* TODO -- sort these */
+.attacker {
+    color: rgb(214, 39, 40);
+}
+
+.target {
+    color: rgb(31, 119, 180);
+}
+
+/* LEGEND */
+
+#legend-container {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    background: rgb(0,84,190); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(0,84,190,1) 0px, rgba(0,84,190,1) 3px, rgba(0,78,176,1) 3px, rgba(0,78,176,1) 3px, rgba(0,78,176,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0,rgba(0,84,190,1)), color-stop(3px,rgba(0,84,190,1)), color-stop(3px,rgba(0,78,176,1)), color-stop(3px,rgba(0,78,176,1)), color-stop(100%,rgba(0,78,176,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,84,190,1) 0px,rgba(0,84,190,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,84,190,1) 0px,rgba(0,84,190,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,84,190,1) 0px,rgba(0,84,190,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,84,190,1) 0px,rgba(0,84,190,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 3px,rgba(0,78,176,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0054be', endColorstr='#004eb0',GradientType=1 ); /* IE6-9 */
+}
+
+#legend-container h4 {
+    font-size: 9px;
+    margin: 0 0 20px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+}
+
+#legend > div {
+    margin: auto 0.5%;
+    text-align: left;
+}
+
+#legend ul {
+    list-style-type: none;
+    margin-left: -2em;
+}
+
+#legend .clusters ul > li {
+    display: inline-block;
+    margin: auto 0.8em;
+}
+
+#legend .country-colors ul > li {
+    display: inline-block;
+    margin: auto 0.2em;
+    width: 1.9em;
+}
+
+#particle-legend > p {
+    margin-left: 40px;
+}
+
+#origin-legend > p {
+    margin-left: 15px;
+}
+
+#country-legend > p {
+    margin-left: 5px;
+}
+
+#origin-legend p span {
+    margin-right: 4px;
+}
+
+#origin-legend p .icon-one {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+#origin-legend p .icon-ten {
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+#origin-legend p .icon-twohundred {
+    font-size: 32px;
+}
+
+h4 > span {
+    margin-right: 5px;
+    float: left;
+    margin-top: 1px;
+}
+
+h4 > p {
+    display: inline-block;
+    width: 85%;
+    margin: 0;
+}
+
+#country-legend p [class^="icon-"], #country-legend p [class*=" icon-"] {
+    font-size: 20px;
+}
+
+footer {
+    width: 30%;
+    float: right;
+    font-size: 8px;
+    font-family: "Open Sans", "Oswald", sans-serif;
+    line-height: 10px;
+    margin-top: 10px;
+}
+
+#events-data tr td:first-child {
+    white-space: nowrap;
+}
+
+#message-panel {
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 300px;
+    width: 600px;
+}
+
+#message-container {
+    position: relative;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#message-container span {
+    display: inline-block; 
+    vertical-align: middle ;
+}
+
+#close-button {
+    position: absolute;
+    width: 100px;
+    left: 250px;
+    bottom: 20px;
+    height: 25px;
+    color: white;
+    border-radius: 3px;
+}
+
+#social-icons {
+    position: absolute;
+    height: 36px;
+    width: 180px;
+    bottom: 6px;
+    right: 6px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    z-index: 20;
+}
+
+#social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#social-icons li {
+    display: inline-block;
+}
+
+#social-icons a {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#social-icons a:visited {
+    color: white;    
+}
+
+#unknown-icon {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    opacity: 0.6;
+}

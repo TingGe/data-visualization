@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Norse Attack Map</title>
+  <link rel='stylesheet' href='css/fonts.css'>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel='stylesheet' href='css/vendor/leaflet-0.7.3.css'>
+</head>
+<body>
+<div id="particleHiddenDiv" style="display:none"></div>
+<div id="chevronHiddenDiv" style="display:none"><!-- Insert chevron here --></div>
+<div id='map'></div>
+<div id='controls'>
+  <!--<img id="logo">-->
+</div>
+<div id='infobox'>
+  <div class='close'>X</div>
+  <div id='infobox-header'><h2>Norse Dark Intelligence</h2></div>
+  <div id='infobox-main'>
+    <p>Every second, Norse collects and analyzes live threat intelligence from darknets in hundreds of locations in over
+      40 countries. The attacks shown are based on a small subset of live flows against the Norse honeypot
+      infrastructure, representing actual worldwide cyber attacks by bad actors. At a glance, one can see which
+      countries are aggressors or targets at the moment, using which type of attacks (services-ports).</p>
+
+    <p>Hovering over the ATTACK ORIGINS, ATTACK TARGETS, or ATTACK TYPES will highlight just the attacks emanating from
+      that country or over that service-port respectively. Hovering over any bubble on the map, will highlight only the
+      attacks from that location and type.</p>
+
+    <p>Norse exposes its threat intelligence via high-performance, machine-readable APIs in a variety of forms. Norse
+      also provides products and solutions that assist organizations in protecting and mitigating cyber attacks.</p>
+
+    <p>For more information, please contact: <a href=mailto:inquiry@norse-corp.com>inquiry@norse-corp.com</a></p>
+
+    <div id="social-icons" class="gray-bg">
+      <a href="http://www.youtube.com/user/norsecorporation"><span class="icon-youtube"></span></a>
+      <a href="https://www.facebook.com/NorseCorporation"><span class="icon-facebook"></span></a>
+      <a href="https://plus.google.com/114618904682323659936"><span class="icon-googleplus"></span></a>
+      <a href="http://www.linkedin.com/company/norse-corporation"><span class="icon-linkedin"></span></a>
+      <a href="http://twitter.com/NorseCorp"><span class="icon-twitter"> </span></a>
+    </div>
+  </div>
+  <div id="legend-container">
+    <!--
+    <div id="particle-legend" class='legend'>
+      <h4><p>Each particle represents an attack</p></h4>
+      <p id="particle-legend-content"><img src='assets/particle-inverse.png'></p>
+    </div>
+    -->
+    <div id="origin-legend" class='legend'>
+      <h4><p>Attack origins are grouped into clusters</p></h4>
+      <p>
+        <span class="icon-one"></span>
+        <span class="icon-ten"></span>
+        <span class="icon-twohundred"></span>
+      </p>
+    </div>
+    <div id="country-legend" class='legend'>
+      <h4><p>Countries are shaded in as they're attacked</p></h4>
+      <p>
+        <span class="icon-one" style="color: #1e1e1e;"></span>
+        <span class="icon-five" style="color: #1e2637;"></span>
+        <span class="icon-twentyfive" style="color: #1e2e50;"></span>
+        <span class="icon-onehundred" style="color: #1e3565;"></span>
+        <span class="icon-fivehundred" style="color: #1e3d7e;"></span>
+      </p>
+    </div>
+  </div>
+</div>
+<div id='chevron-container'></div>
+<div id='preload'></div>
+<!-- <audio src='assets/pew.mp3' preload='auto'></audio> -->
+<script>
+  var isInline = false;
+  //Insert json_include.js here
+</script>
+<script src='js/vendor/d3.v3.min.js'></script>
+<script src='js/vendor/queue.v1.min.js'></script>
+<script src='js/vendor/topojson.v1.min.js'></script>
+<script src='js/vendor/lokijs.js'></script>
+<script src='js/vendor/moment.min.js'></script>
+<script src='js/vendor/leaflet-0.7.3.js'></script>
+
+<script src='js/vendor/L.svgOverlay.js'></script>
+<script src='js/vendor/L.CanvasOverlay.js'></script>
+<script src='js/prototype/FXOverlay2.js'></script>
+
+<script src='js/app.min.js'></script>
+</body>
+</html>

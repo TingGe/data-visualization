@@ -1,0 +1,341 @@
+/*@import url(http://fonts.googleapis.com/css?family=Oswald:bold,700,400,300|Open+Sans);*/
+
+* {
+  box-sizing: border-box;
+}
+/**, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+body, #map {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Helvetica Neue', Helvetica;*/
+  /*font: 10px 'Consolas';*/
+  /*background: #1a1a1a;*/
+  background-color: #000;
+  font-size: 11px;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#map canvas {
+  /*position: relative;*/
+  position: absolute;
+}
+
+#ui {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  max-height: 35%;
+  background-color: rgba(64, 64, 64, 0.5);
+  font-family: 'Oswald';
+  font-weight: 300;
+}
+
+#ui .module {
+  float: left;
+  /*padding: 20px;*/
+  margin-right: 1%;
+  color: #4bffff;
+}
+/* clock/ticker */
+#ui .module:last-child {
+  margin-right: 0%;
+  margin-left: 1%;
+}
+#ui .minimize-button {
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(0,206,209, 0.1);
+  /*float: right;*/
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 24px;
+  /*line-height: 20px;*/
+  font-weight: bold;
+}
+#ui-clock {
+  width: 10%;
+  /*height: 100%;*/
+}
+#ui-clock, #ui-clock svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 0%;
+  height: 100%;
+}
+#ui .title {
+  position: relative;
+  background-color: rgba(0,206,209, 0.1);
+  background-image: url('../assets/title-bg.png');
+  /*font: 14px 'Helvetica Neue', Helvetica;*/
+  /*font: 14px 'Consolas';*/
+  /*padding: 0 0 2% 0;*/
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 2em;
+  /*padding-left: 10px;*/
+  padding: 10px 0 5px 10px;
+  margin-bottom: 5px;
+  /*border-bottom: 2px solid #000;*/
+}
+#ui-datatable-service {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#ui-datatable-events {
+  background-color: rgba(75, 255, 255, 0.1);
+}
+span {
+  display: block;
+}
+table {
+  width: 98%;
+  table-layout: fixed;
+  padding-left: 10px;
+}
+.row {
+  cursor: pointer;
+}
+.header {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-weight: 700;
+}
+.column-header, .row {
+  /*clear: both;*/
+  /* FIXME doesn't work */
+  padding-left: 10px;
+  /*font-family: 'Oswald';*/
+  /*font-weight: 700;*/
+}
+.cell {
+  /*overflow: hidden;*/
+  /*display: inline;*/
+  /*margin: 2%;*/
+  /*border: 1px solid red;*/
+  /*float: left;*/
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+.cell span {
+  display: inline;
+}
+td {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.column {
+  /*font-weight: bold;*/
+  /*float: left;*/
+  font-family: 'Oswald';
+  font-weight: 400;
+}
+.number {
+  width: ;
+  font-family: 'Oswald';
+  font-weight: 400;
+}
+
+.flag {
+  width: 16px;
+  height: 10px;
+  padding-right: 3px;
+}
+
+.links {
+  fill: none;
+  stroke: #fff;
+  opacity: 0.3;
+}
+
+#controls {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  padding: 10px;
+  /*background: #000;*/
+  color: #4bffff;
+}
+
+#controls > #zoom > div {
+  font-family: 'Consolas', 'Courier New', sans-serif;
+  margin: 12px;
+  padding: 8px;
+  width: 32px;
+  /*height: 24px;*/
+  font-size: 24px;
+  line-height: 18px;
+  border: 1px solid #4bffff;
+  background: #000;
+  cursor: pointer;
+}
+
+.minibar {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  /*height: 50%;*/
+  /*width: 25%;*/
+  width: 30px;
+  height: 30px;
+  background: #000;
+  /*clear: both;*/
+  /*display: inline-block;*/
+  /*background: #ccc;*/
+  /*border: 1px solid red;*/
+  /*display: table;*/
+}
+
+.bar {
+  float: right;
+  /*float: right;*/
+  /*display: inline;*/
+  /*position: absolute;*/
+  /*display: table-cell;*/
+  /*clear: both;*/
+}
+
+#preload {
+  visibility: hidden;
+}
+.ticker-line {
+  fill: none;
+  stroke-width: 1;
+  opacity: 1;
+}
+
+.small {
+  font-size: 8px;
+}
+#chevron-container {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+}
+#chevron {
+  visibility: hidden;
+}
+#chevron text, #chevron-container text {
+  fill: #000;
+  stroke: none;
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+}
+#chevron > g:nth-child(4) > text {
+  font-size: 9px !important;
+}
+#chevron path, #chevron-container svg path {
+  fill: #4bffff;
+  stroke: none;
+  cursor: pointer;
+}
+
+#infobox {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 78, 176);
+  color: #fff;
+  padding: 5px 0 5px 20px;
+  font-family: 'Open Sans', 'Oswald';
+  font-weight: 300;
+}
+
+#infobox a, #infobox a:visited {
+  color: #fff;
+}
+
+#infobox .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background: #fff;
+  color: rgb(0, 78, 176);
+}
+#social-icons {
+  display: table-row;
+  font-size: 18px;
+}
+
+#social-icons a {
+  text-decoration: none;
+  display: table-cell;
+}
+
+#legend-container {
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  padding-left: 20px;
+}
+
+#legend-container h4 {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Open Sans Bold", "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+}
+
+#infobox .legend {
+  display: table-row;
+}
+
+#infobox .legend span, #social-icons a {
+  display: table-cell;
+  padding-right: 5px;
+}
+
+#infobox .legend span {
+  font-size: 16px;
+}
+
+.icon-ten {
+  font-size: 20px !important;
+}
+
+.icon-twohundred {
+  font-size: 26px !important;
+}
+
+#infobox-header {
+  width: 100%;
+}
+
+#infobox-header h2 {
+  margin-top: 0;
+}
+
+#infobox-main, #legend-container {
+  float: left;
+  max-width: 40%;
+  margin-right: 20px;
+}
+/*
+.legend > p > span {
+  font-size: 12px;
+}*/
+#particle-legend img {
+  width: 16px;
+  height: 16px;
+}

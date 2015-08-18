@@ -1,0 +1,256 @@
+euname,modified,linked_country,iso3,iso2,grc,isonum,country,imperitive
+,,Georgia,,,ABK,,阿布哈兹事实上的;货币 ,De Facto; Currency
+AFGHANISTAN,,,AFG,AF,AFG,4,阿富汗,
+,Added 26th October 2010,Finland,ALA,AX,ALA,248,奥兰群岛,Postal
+Albania,,,ALB,AL,ALB,8,阿尔巴尼亚,
+ALGERIA,,,DZA,DZ,ALG,12,阿尔及利亚,
+,,United States of America,ASM,AS,AMS,16,美属萨摩亚,Geographical
+ANDORRA,,,AND,AD,AND,20,安道尔,
+ANGOLA,,,AGO,AO,ANG,24,安哥拉,
+,,United Kingdom,AIA,AI,ANU,660,安圭拉,Geographical; Postal; Currency; Telephone
+ANTIGUA AND BARBUDA,,,ATG,AG,ANT,28,安提瓜和巴布达,
+Argentina,,,ARG,AR,ARG,32,阿根廷,
+Armenia,,,ARM,AM,ARM,51,亚美尼亚,
+ARUBA,,Netherlands,ABW,AW,ARU,533,阿鲁巴,Geographical; Postal; Currency; Telephone
+Australia,,,AUS,AU,AST,36,澳大利亚,
+Austria,,,AUT,AT,AUS,40,奥地利,
+AZERBAIJAN,,,AZE,AZ,AZE,31,阿塞拜疆,
+BAHAMAS,,,BHS,BS,BAH,44,巴哈马,
+BAHRAIN,,,BHR,BH,BAR,48,巴林,
+BANGLADESH,,,BGD,BD,BAN,50,孟加拉国,
+Barbados,,,BRB,BB,BAB,52,巴巴多斯,
+BELARUS,,,BLR,BY,BEO,112,白俄罗斯,
+Belgium,,,BEL,BE,BEL,56,比利时,
+BELIZE,,,BLZ,BZ,BEI,84,伯利兹,
+Benin,,,BEN,BJ,BEN,204,贝宁,
+,,United Kingdom,BMU,BM,BER,60,百慕达,Geographical; Postal; Currency; Telephone
+BHUTAN,,,BTN,BT,BHU,64,不丹,
+BOLIVIA,,,BOL,BO,BOL,68,玻利维亚,
+,ISO codes added 28th Dec. 2010,Netherlands,BES,BQ,BON,535,博内尔岛,Geographical; Postal; Currency; Telephone
+Bosnia-Herzegovina,,,BIH,BA,BOS,70,波斯尼亚 - 黑塞哥维那,
+BOTSWANA,,,BWA,BW,BOT,72,博茨瓦纳,
+Brazil,,,BRA,BR,BRA,76,巴西,
+,,"United Kingdom, United States of America",IOT,IO,BIO,86,86,Geographical; Postal; Telephone
+British Virgin Islands,,United Kingdom,VGB,VG,BVI,92,英属维尔京群岛,Geographical; Postal; Currency; Telephone
+BRUNEI,,,BRN,BN,BRU,96,文莱达鲁萨兰国,
+Bulgaria,,,BGR,BG,BUL,100,保加利亚,
+BURKINA FASO,,,BFA,BF,BUK,854,布基纳法索,
+BURUNDI,,,BDI,BI,BUU,108,布隆迪,
+Cambodia,,,KHM,KH,CAM,116,柬埔寨,
+Cameroon,,,CMR,CM,CAE,120,喀麦隆,
+Canada,,,CAN,CA,CAN,124,加拿大,
+CAPE VERDE,,,CPV,CV,CAP,132,佛得角群岛,
+,,United Kingdom,CYM,KY,CAY,136,开曼群岛,Geographical; Postal; Currency; Telephone
+"CENTRAL AFRICAN, REPUBLIC",,,CAF,CF,CEN,140,中非共和国,
+Chad,,,TCD,TD,CHA,148,乍得,
+CHILE,,,CHL,CL,CHI,152,智利,
+CHINA,,,CHN,CN,CHN,156,中国(大陆),
+,,Australia,CXR,CX,CHR,162,圣诞岛,Geographical
+,,Australia,CCK,CC,COC,166,科科斯（基灵）群岛,Geographical
+Colombia,,,COL,CO,CLO,170,哥伦比亚,
+COMOROS,,,COM,KM,COM,174,科摩罗,
+CONGO,,,COG,CG,CNG,178,刚果（布）,
+"CONGO, DEMOCRATIC REPUBLIC OF",,,ZAR,CD,ZAI,180,刚果（金）,
+COOK ISLANDS,,New Zealand,COK,CK,COO,184,库克群岛,Geographical; Postal; Telephone
+Costa Rica,,,CRI,CR,COS,188,哥斯达黎加,
+Croatia,,,HRV,HR,CRO,191,克罗地亚,
+CUBA,,,CUB,CU,CUB,192,古巴,
+,ISO codes added 28th Dec. 2010,Netherlands,CUW,CW,CUR,531,库拉索岛,Geographical; Postal; Currency; Telephone
+Cyprus,,,CYP,CY,CYP,196,塞浦路斯,
+Czech Republic,,,CZE,CZ,CZE,203,捷克共和国,
+Denmark,,,DNK,DK,DEN,208,丹麦,
+DJIBOUTI,,,DJI,DJ,DJI,262,吉布提,
+DOMINIQUE,,,DMA,DM,DOI,212,多米尼加,
+Dominican Republic,,,DOM,DO,DOM,214,多明尼加共和国,
+EAST TIMOR,,,TLS,TL,ETI,626,东帝汶,
+Ecuador,,,ECU,EC,ECU,218,厄瓜多尔,
+EGYPT,,,EGY,EG,EGY,818,埃及,
+El Salvador,,,SLV,SV,ELS,222,萨尔瓦多,
+EQUATORIAL GUINEA,,,GNQ,GQ,EQA,226,赤道几内亚,
+ERITREA,,,ERI,ER,ERI,232,厄立特里亚,
+Estonia,,,EST,EE,EST,233,爱沙尼亚,
+ETHIOPIA,,,ETH,ET,ETH,231,埃塞俄比亚,
+FAROE ISLANDS,,,FRO,FO,FAE,234,法罗群岛,
+,,United Kingdom,FLK,FK,FAL,238,福克兰群岛,Geographical; Postal; Currency; Telephone
+FIJI,,,FJI,FJ,FIJ,242,斐济,
+Finland,,,FIN,FI,FIN,246,芬兰,
+France,,,FRA,FR,FRA,250,法国,
+FRENCH GUYANA,,France,GUF,GF,FGU,254,法属圭亚那,Geographical; Telephone
+FRENCH POLYNESIA,Corrected 13th November 2010,France,PYF,PF,FPO,258,法属波利尼西亚,Geographical; Currency; Telephone
+,,France,ATF,TF,FST,260,法国南方的领土,Geographical; Postal; Telephone
+GABON,,,GAB,GA,GAB,266,加蓬,
+GAMBIA,,,GMB,GM,GAM,270,冈比亚,
+GEORGIA,,,GEO,GE,GEO,268,格鲁吉亚,
+Germany,,,DEU,DE,GER,276,德国,
+Ghana,,,GHA,GH,GHA,288,加纳,
+GIBRALTAR,,United Kingdom,GIB,GI,GIB,292,直布罗陀,Geographical; Postal; Currency; Telephone
+Greece,,,GRC,GR,GRE,300,希腊,
+GREENLAND,,Denmark,GRL,GL,GRN,304,格陵兰岛,Geographical; Postal; Telephone
+GRENADA,,,GRD,GD,GRA,308,格林纳达,
+GUADELOUPE,,France,GLP,GP,GUD,312,瓜德罗普岛,Geographical; Postal; Telephone
+,,United States of America,GUM,GU,GUM,316,,Geographical
+Guatemala,,,GTM,GT,GUA,320,危地马拉,
+,,United Kingdom,GGY,GG,GUE,831,根西岛,Postal
+Guinea,,,GIN,GN,GUI,324,几内亚,
+GUINEA BISSAU,,,GNB,GW,GUB,624,几内亚比绍,
+GUYANA,,,GUY,GY,GUY,328,圭亚那,
+HAITI,,,HTI,HT,HAI,332,海地,
+HOLY SEE (VATICAN CITY STATE),,,VAT,VA,VAT,336,罗马教廷,
+Honduras,,,HND,HN,HON,340,洪都拉斯,
+Hong Kong,,China,HKG,HK,HOK,344,香港,Postal; Currency; Telephone
+Hungary,,,HUN,HU,HUN,348,匈牙利,
+Iceland,,,ISL,IS,ICE,352,冰岛,
+India,,,IND,IN,IND,356,印度,
+INDONESIA,,,IDN,ID,INO,360,印度尼西亚,
+"IRAN, ISLAMIC REPUBLIC OF",,,IRN,IR,IRA,364,伊朗,
+IRAQ,,,IRQ,IQ,IRQ,368,伊拉克,
+Ireland,,,IRL,IE,IRE,372,爱尔兰,
+,,United Kingdom,IMN,IM,ISL,833,马恩岛,Postal
+Israel,,,ISR,IL,ISR,376,以色列,
+Italy,,,ITA,IT,ITA,380,意大利,
+COTE D'IVOIRE,,,CIV,CI,IVO,384,象牙海岸,
+Jamaica,,,JAM,JM,JAM,388,牙买加,
+Japan,,,JPN,JP,JAP,392,日本,
+JERSEY,,United Kingdom,JEY,JE,JER,832,泽西岛,Postal
+JORDAN,,,JOR,JO,JOR,400,乔丹,
+KAZAKHSTAN,,,KAZ,KZ,KAZ,398,哈萨克斯坦,
+Kenya,,,KEN,KE,KEN,404,肯尼亚,
+KIRIBATI,,,KIR,KI,KII,296,基里巴斯,
+,,Serbia,,,KOS,,科索沃,Postal; Currency; Telephone
+KUWAIT,,,KWT,KW,KUW,414,科威特,
+KYRGYZSTAN,,,KGZ,KG,KIR,417,吉尔吉斯斯坦,
+"LAOS, PEOPLE'S DEMOCRATIC REPUBLIC",,,LAO,LA,LAO,418,老挝,
+Latvia,,,LVA,LV,LAT,428,拉脱维亚,
+LEBANON,,,LBN,LB,LEB,422,黎巴嫩,
+LESOTHO,,,LSO,LS,LES,426,莱索托,
+LIBERIA,,,LBR,LR,LIR,430,利比里亚,
+LIBYA,,,LBY,LY,LIB,434,利比亚,
+LIECHTENSTEIN,,,LIE,LI,LIE,438,列支敦士登,
+LITUANIA,,,LTU,LT,LIT,440,立陶宛,
+Luxembourg,,,LUX,LU,LUX,442,卢森堡,
+MACAO,,China,MAC,MO,MCA,446,澳门,Postal; Currency; Telephone
+"MACEDONIA, FORMER YUGOSLAV REPUBLIC OF",,,MKD,MK,MCE,807,807,
+MADAGASCAR,,,MDG,MG,MAD,450,马达加斯加,
+MALAWI,,,MWI,MW,MAW,454,马拉维,
+Malaysia,,,MYS,MY,MAA,458,马来西亚,
+MALDIVES,,,MDV,MV,MAV,462,马尔代夫,
+MALI,,,MLI,ML,MAI,466,马里,
+Malta,,,MLT,MT,MAL,470,马耳他,
+MARSHALL ISLANDS,,,MHL,MH,MAR,584,马绍尔群岛,
+MARTINIQUE,,France,MTQ,MQ,MAN,474,马提尼克岛,Geographical; Postal; Telephone
+Mauritania,,,MRT,MR,MAU,478,毛里塔尼亚,
+MAURITIUS,,,MUS,MU,MAT,480,毛里求斯,
+MAYOTTE,,France,MYT,YT,MAY,175,马约特岛,Geographical; Postal; Telephone
+Mexico,,,MEX,MX,MEX,484,墨西哥,
+"MICRONESIA, FEDERATED STATES OF",,,FSM,FM,MIC,583,密克罗尼西亚,
+"MOLDOVA, REPUBLIC OF",,,MDA,MD,MOL,498,摩尔多瓦,
+Monaco,,,MCO,MC,MON,492, ,
+MONGOLIA,,,MNG,MN,MOG,496,蒙古,
+Montenegro,,,MNE,ME,MOE,499,黑山,
+,,United Kingdom,MSR,MS,MOT,500,蒙特塞拉特,Geographical; Postal; Currency; Telephone
+Morocco,,,MAR,MA,MOR,504,摩洛哥,
+Mozambique,,,MOZ,MZ,MOZ,508,莫桑比克,
+Myanmar,,,MMR,MM,BUR,104,缅甸,
+,,Azerbaijan,,,NAG,,纳戈尔诺 - 卡拉巴赫的,De Facto
+NAMIBIA,,,NAM,NA,NAM,516,纳米比亚,
+NAURU,,,NRU,NR,NAU,520,瑙鲁,
+NEPAL,,,NPL,NP,NEP,524,尼泊尔,
+Netherlands Antilles,,,ANT,AN,NAN,530,荷属安的列斯,Legacy
+Netherlands,,,NLD,NL,NET,528,荷兰,
+NEW CALEDONIA,,France,NCL,NC,NCA,540,新喀里多尼亚,Geographical; Postal; Currency; Telephone
+NEW ZEALAND,,,NZL,NZ,NEW,554,新西兰,
+Nicaragua,,,NIC,NI,NIC,558,尼加拉瓜,
+Niger,,,NER,NE,NIE,562,尼日尔,
+Nigeria,,,NGA,NG,NIG,566,尼日利亚,
+NIUE,,,NIU,NU,NIU,570,纽埃,
+,,Australia,NFK,NF,NOF,574,诺福克岛,Geographical; Telephone
+"KOREA, PEOPLE'S DEMOCRATIC REPUBLIC OF",,,PRK,KP,NKO,408,北朝鲜,
+,,Cyprus,,,NCY,,北塞浦路斯,De Facto; Postal; Currency; Telephone
+,,United States of America,MNP,MP,NMI,580,北马里亚纳群岛,Geographical
+Norway,,,NOR,NO,NOR,578,挪威,
+OMAN,,,OMN,OM,OMA,512,阿曼,
+Pakistan,,,PAK,PK,PAK,586,巴基斯坦,
+PALAU,,,PLW,PW,PAL,585, ,
+PALESTINIAN OCCUPIED TERRITORY,,Israel,PSE,PS,PLA,275,巴勒斯坦领土,
+PANAMA,,,PAN,PA,PAN,591,巴拿马,
+PAPUA NEW GUINEA,,,PNG,PG,PAP,598,巴布亚新几内亚,
+PARAGUAY,,,PRY,PY,PAR,600,巴拉圭,
+PERU,,,PER,PE,PER,604,秘鲁,
+Philippines,,,PHL,PH,PHI,608,菲律宾,
+,,United Kingdom,PCN,PN,PIT,612,皮特凯恩群岛,Geographical; Postal; Currency; Telephone
+Poland,,,POL,PL,POL,616,波兰,
+Portugal,,,PRT,PT,POR,620,葡萄牙,
+PUERTO RICO,,United States,PRI,PR,PUE,630,波多黎各,Geographical
+,,Somalia,,,PUN,,邦特兰的,De Facto
+QATAR,,,QAT,QA,QAT,634,卡塔尔,
+Romania,,,ROU,RO,ROM,642,罗马尼亚,
+"RUSSIA, FEDERATION OF",,,RUS,RU,RUS,643,俄罗斯,
+RUANDA,,,RWA,RW,RWA,646,卢旺达,
+REUNION,,France,REU,RE,REU,638,留尼旺,Geographical; Postal; Currency; Telephone
+,ISO codes added 28th Dec. 2010,The Netherlands,BES,BQ,SAB,535,沙巴,Geographical; Postal; Currency; Telephone
+,,France,BLM,BL,STB,652,圣巴泰勒米,Geographical; Postal; Currency; Telephone
+SAINT KITTS AND NEVIS,,,KNA,KN,STC,659,圣克里斯托弗和尼维斯,
+,,United Kingdom,SHN,SH,STH,654,圣赫勒拿岛,Geographical; Postal; Currency; Telephone
+SAINT LUCIA,,,LCA,LC,STL,662,圣卢西亚,
+,,France,MAF,MF,STM,663,圣马丁,Geographical; Postal; Currency; Telephone
+,,France,SPM,PM,SPM,666,圣皮埃尔和密克隆群岛,Geographical; Postal; Currency; Telephone
+SAINT VINCENT AND THE GRENADINES,,,VCT,VC,STV,670,圣文森特和格林纳丁斯,
+SAMOA,,,WSM,WS,WSM,882,萨摩亚,
+SAINT MARINO,,,SMR,SM,SAN,674,圣马力诺,
+SAO TOME AND PRINCIPE,,,STP,ST,SAO,678,圣多美和普林西比,
+SUADI ARABIA,,,SAU,SA,SAU,682,沙特阿拉伯,
+Senegal,,,SEN,SN,SEN,686,塞内加尔,
+Serbia,,,SRB,RS,YUG,688,塞尔维亚,
+SEYCHELLES,,,SYC,SC,SEY,690,塞舌尔,
+SIERRA LEONE,,,SLE,SL,SIE,694,塞拉利昂,
+SINGAPORE,,,SGP,SG,SIN,702,新加坡,
+,ISO codes added 28th Dec. 2010,The Netherlands,BES,BQ,STE,535,圣尤斯特歇斯,Geographical; Postal; Currency; Telephone
+,ISO codes added 28th Dec. 2010,The Netherlands,SXM,SX,SMA,534,圣马丁岛,Geographical; Postal; Currency; Telephone
+Slovakia,,,SVK,SK,SLO,703,斯洛伐克,
+Slovenia,,,SVN,SI,SLV,705,斯洛文尼亚,
+SOLOMON ISLANDS,,,SLB,SB,SOL,90,所罗门群岛,
+SOMALIA,,,SOM,SO,SOM,706,索马里,
+,,Somalia,SOM,SO,SOA,706,索马里兰的,De Facto
+South Africa,,,ZAF,ZA,SAF,710,南非,
+,,United Kingdom,SGS,GS,SGE,239,南乔治亚岛与南夹心群岛,Geographical; Postal; Currency; Telephone
+"KOREA, REPUBLIC OF",,,KOR,KR,SKO,418,418,
+,,Georgia,,,SOS,,南奥塞梯事实上的;货币 ,De Facto; Currency
+SOUTH SUDAN,Added 22nd February 2011. ISO codes added 18th August 2011.,,SSD,SS,SSU,,南苏丹,
+Spain,,,ESP,ES,SPA,724,西班牙,
+SRI LANKA,,,LKA,LK,SRI,144,斯里兰卡,
+Sudan,,,SDN,SD,SUD,736,苏丹,
+SURINAM,,,SUR,SR,SUR,740,苏里南,
+SWAZILAND,,,SWZ,SZ,SWA,748,斯威士兰,
+Sweden,,,SWE,SE,SWE,752,瑞典,
+Switzerland,,,CHE,CH,SWI,756,瑞士,
+"SYRIA, ARAB REPUBLIC",,,SYR,SY,SYR,760,叙利亚,
+TAIWAN,,China,TWN,TW,TAI,158,台湾,
+TAJIKISTAN,,,TJK,TJ,TAJ,762,塔吉克斯坦,
+"TANZANIA, UNITED RE UBLIC OF",,,TZA,TZ,TAN,834,坦桑尼亚,
+THAILAND,,,THA,TH,THA,764,泰国,
+TOGO,,,TGO,TG,TOG,768,多哥,
+,,New Zealand,TKL,TK,TOK,772,托克劳群岛,Geographical; Postal; Telephone
+TONGA,,,TON,TO,TON,776, ,
+,,Moldova,,,TRA,,德涅斯特的,De Facto
+TRINIDAD AND TOBAGO,,,TTO,TT,TRI,780,特立尼达和多巴哥,
+Tunisia,,,TUN,TN,TUN,788,突尼斯,
+Turkey,,,TUR,TR,TUR,792,土耳其,
+TURKMENISTAN,,,TKM,TM,TUK,795,土库曼斯坦,
+,,United Kingdom,TCA,TC,TUC,796,特克斯和凯科斯群岛,Geographical; Postal; Currency; Telephone
+TUVALU,,,TUV,TV,TUV,798,图瓦卢,
+Uganda,,,UGA,UG,UGA,800,乌干达,
+Ukraine,,,UKR,UA,UKR,804,乌克兰,
+United Arab Emirates,,,ARE,AE,UAE,784,阿拉伯联合酋长国,
+United Kingdom,,,GBR,GB,UNI,826,英国,
+United States,,,USA,US,USA,840,美国,
+US VIRGIN ISLANDS,,United States of America,VIR,VI,VIR,850,美属维尔京群岛,Geographical
+URUGUAY,,,URY,UY,URU,858,乌拉圭,
+UZBEKISTAN,,,UZB,UZ,UZB,860,乌兹别克斯坦,
+VANUATU,,,VUT,VU,VAN,548,瓦努阿图,
+VENEZUELA,,,VEN,VE,VEN,862,委内瑞拉,
+VIETNAM,,,VNM,VN,VIE,704,越南,
+,,France,WLF,WF,WAL,876,瓦利斯和富图纳群岛,Geographical; Postal; Currency; Telephone
+WESTERN SAHARA,,Morocco,ESH,EH,WSA,732,西撒哈拉,Political
+Yemen,,,YEM,YE,YEM,887,也门,
+ZAMBIA,,,ZMB,ZM,ZAM,894,赞比亚,
+ZIMBABWE,,,ZWE,ZW,ZIM,716,津巴布韦,

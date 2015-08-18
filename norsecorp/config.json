@@ -1,0 +1,24 @@
+{
+  "stream": {
+    "host": "ws://mbsd.ipviking.com:443/",
+    "psk": "18c989796c61724d4661b019f2779848dd69ae62"
+  },
+  "ui": {
+    "logo": "assets/norse-white.png",
+    "spacing": 3
+  },
+  "map": {
+    "container": "map",
+    "jsonBasemap": true,
+    "options": {
+      "zoomControl": false,
+      "attributionControl": false,
+      "center": [0, 0],
+      "zoom": 3,
+      "center": [24.5271348225978, -0.17578125],
+      "maxBounds": [[75, 179], [-61, -181]],
+      "minZoom": 2,
+      "maxZoom": 5
+    }
+  }
+}

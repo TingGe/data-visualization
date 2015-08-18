@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Attack Origins",
+    "type": "source",
+    "key": "source",
+    "columns": [
+      {
+        "display": "#",
+        "attr": "count",
+        "width": "15%"
+      },
+      {
+        "display": "Country",
+        "attr": "country",
+        "width": "85%"
+      }
+    ],
+    "width": "12%",
+    "viz": true
+  },
+  {
+    "name": "Attack Types",
+    "type": "service",
+    "key": "service",
+    "columns": [
+      {
+        "display": "#",
+        "attr": "count",
+        "width": "15%"
+      },
+      {
+        "display": "Port",
+        "attr": "port",
+        "width": "20%"
+      },
+      {
+        "display": "Service Type",
+        "attr": "service",
+        "width": "65%"
+      }
+    ],
+    "width": "15%",
+    "viz": true
+  },
+  {
+    "name": "Attack Targets",
+    "type": "target",
+    "key": "target",
+    "columns": [
+      {
+        "display": "#",
+        "attr": "count",
+        "width": "15%"
+      },
+      {
+        "display": "Country",
+        "attr": "country",
+        "width": "85%"
+      }
+    ],
+    "width": "12%",
+    "viz": true
+  },
+  {
+    "name": "Live Attacks",
+    "type": "events",
+    "key": "events",
+    "columns": [
+      {
+        "display": "Timestamp",
+        "attr": "timestamp",
+        "width": "15%"
+      },
+      {
+        "display": "Attacker",
+        "attr": "org",
+        "width": "30%"
+      },
+      {
+        "display": "Attacker IP",
+        "attr": "ip",
+        "width": "12%"
+      },
+      {
+        "display": "Attacker Geo",
+        "attr": "source",
+        "width": "12%"
+      },
+      {
+        "display": "Target Geo",
+        "attr": "target",
+        "width": "12%"
+      },
+      {
+        "display": "Attack Type",
+        "attr": "service",
+        "width": "14%"
+      },
+      {
+        "display": "Port",
+        "attr": "port",
+        "width": "5%"
+      }
+    ],
+    "width": "46%"
+  }
+]
