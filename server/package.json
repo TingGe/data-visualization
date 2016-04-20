@@ -1,0 +1,27 @@
+{
+  "name": "realtime-websockert-server",
+  "version": "1.0.0",
+  "description": "a realtime server",
+  "main": "index.js",
+  "scripts": {
+    "default": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TingGe/data-visualization.git"
+  },
+  "keywords": [
+    "websocket",
+    "server"
+  ],
+  "author": "TingGe <505253293@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TingGe/data-visualization/issues"
+  },
+  "homepage": "https://github.com/TingGe/data-visualization#readme",
+  "dependencies": {
+    "ws": "^1.1.0"
+  }
+}
