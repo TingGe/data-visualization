@@ -1,6 +1,6 @@
 {
   "stream": {
-    "host": "ws://mbsd.ipviking.com:443/",
+    "host": "ws://127.0.0.1:9999",
     "psk": "18c989796c61724d4661b019f2779848dd69ae62"
   },
   "ui": {

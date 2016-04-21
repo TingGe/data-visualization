@@ -1,5 +1,6 @@
 service,port
 http,80
+ftp,21
 ssh,22
 telnet,23
 route,520

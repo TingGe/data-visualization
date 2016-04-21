@@ -65,7 +65,7 @@ function hideMessage() {
 
     // Websocket 设置
     //wsHost: "ws://64.19.78.244:443/",
-    wsHost: "ws://127.0.0.1:8080",
+    wsHost: "ws://127.0.0.1:9999",
     psk: "18c989796c61724d4661b019f2779848dd69ae62",
     wsTimeout: 30000
   };
@@ -2012,7 +2012,7 @@ function hideMessage() {
 
     webSocket.onclose = function() {
       //try to reconnect in 5 seconds
-      var interval = 5000;
+      var interval = 500;
 
       wsDiscTime += 500;
 

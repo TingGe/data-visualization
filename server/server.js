@@ -12,13 +12,13 @@ var mockData = {
   "city2": "洛杉矶",
   "type": "ipviking.honey",
   "md5": "221.235.189.244",
-  "dport": "22",
+  "dport": "21",
   "zerg": "rush"
 };
 
 var WebSocketServer = require('ws').Server,
   wss = new WebSocketServer({
-    port: 8080
+    port: 9999
   });
 
 wss.on('connection', function connection(ws) {
@@ -26,7 +26,6 @@ wss.on('connection', function connection(ws) {
     console.log('received: %s', message);
   });
 
-  mockData.dport = "21";
   ws.send(JSON.stringify(mockData));
   ws.close();
 });

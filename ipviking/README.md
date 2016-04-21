@@ -2,10 +2,6 @@
 
 Realtime Attack Trackers
 
-## 背景 ##
-
-
-
 ## Norse - IPViking Map 源码改进与解析  ##
 
 Demo截图

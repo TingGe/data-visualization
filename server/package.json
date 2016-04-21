@@ -2,9 +2,8 @@
   "name": "realtime-websockert-server",
   "version": "1.0.0",
   "description": "a realtime server",
-  "main": "index.js",
   "scripts": {
-    "default": "node ./index.js",
+    "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
