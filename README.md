@@ -16,9 +16,10 @@
 ## 运行
 
 1. 依赖 [Node](https://nodejs.org/)、[http-server](https://github.com/indexzero/http-server)
-2. 在 server 目录执行 `npm install` 后，运行 `npm start` 启动（默认9999端口）
-3. 在根目录执行 `http-server` 命令，依次到对应项目目录即可预览
-4. 关闭命令窗口即可退出
+2. 在 data-visualization/server 目录执行 `npm install` 后，运行 `npm start` 启动（默认9999端口）
+3. 在 data-visualization 目录执行 `http-server`
+4. 根据 `http-server` 中提示的网址，在浏览器（建议 Chrome ）中访问
+5. 关闭命令窗口即可退出
 
 ## 反馈
 
