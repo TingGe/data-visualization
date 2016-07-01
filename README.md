@@ -10,6 +10,8 @@
 
 ### 访问者流报告
 
+借鉴 Google Analytics 行为流 
+
 - Netflow:修改自 [netFlow](https://github.com/jdk137/netFlow/)
 
 
@@ -20,6 +22,12 @@
 3. 在 data-visualization 目录执行 `http-server`
 4. 根据 `http-server` 中提示的网址，在浏览器（建议 Chrome ）中访问
 5. 关闭命令窗口即可退出
+
+## 参考
+
+- [Sankey Diagrams](https://bost.ocks.org/mike/sankey/)
+- [读书笔记 - 数据可视化实践](http://blog.lyuehh.com/book/2013/05/25/reading-notes-Interactive-Data-Visualization.html)
+- [F1 Championship Points as a d3.js Powered Sankey Diagram](https://blog.ouseful.info/2012/05/24/f1-championship-points-as-a-d3-js-powered-sankey-diagram/)
 
 ## 反馈
 
