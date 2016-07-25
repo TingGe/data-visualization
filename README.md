@@ -28,6 +28,7 @@
 - [Sankey Diagrams](https://bost.ocks.org/mike/sankey/)
 - [读书笔记 - 数据可视化实践](http://blog.lyuehh.com/book/2013/05/25/reading-notes-Interactive-Data-Visualization.html)
 - [F1 Championship Points as a d3.js Powered Sankey Diagram](https://blog.ouseful.info/2012/05/24/f1-championship-points-as-a-d3-js-powered-sankey-diagram/)
+- [前端模块化开发DEMO之攻击地图](http://fuxiaode.cn/blog/2015/12/05/attack-map-with-amd)：推荐 @[依宁](https://github.com/danislyn) 的一版[攻击地图](http://fuxiaode.cn/demo/AttackMap/index.html)，感觉真心不错！
 
 ## 反馈
 
