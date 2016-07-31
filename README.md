@@ -5,7 +5,7 @@
 
 ### 图片标定
 
-calibrationbox：一个 [Fabric](http://fabricjs.com/) 的小插件，可用于标定图片中车辆、人、交通灯标识、区域等。详见，calibration-box 项目。
+calibrationbox：一个 [Fabric](http://fabricjs.com/) 的小插件，可用于标定图片中车辆、人、交通灯标识、区域等。详见，[calibration-box](https://github.com/TingGe/calibration-box) 项目。
 
 ![](https://github.com/TingGe/calibration-box/raw/master/assets/calibrationbox.png)
 
