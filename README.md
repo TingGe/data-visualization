@@ -1,19 +1,29 @@
 # data-visualization
-数据可视化：基于d3.js
+数据可视化：基于d3.js 或 fabric.js 等
 
 ## 项目
 
+### 图片标定
+
+calibrationbox：一个 [Fabric](http://fabricjs.com/) 的小插件，可用于标定图片中车辆、人、交通灯标识、区域等。详见，calibration-box 项目。
+
+![](https://github.com/TingGe/calibration-box/raw/master/assets/calibrationbox.png)
+
 ### 网络攻击地图
 
-- Norsecorp
-- Ipviking
+- norsecorp
+
+![](./assets/norsecorp.png)
+
+- ipviking
+
+  ![](./assets/ipviking.png)
 
 ### 访问者流报告
 
-借鉴 Google Analytics 行为流 
+netflow：借鉴 Google Analytics 行为流 ，修改自 [netFlow](https://github.com/jdk137/netFlow/)
 
-- Netflow:修改自 [netFlow](https://github.com/jdk137/netFlow/)
-
+![](./assets/netflow.png)
 
 ## 运行
 
