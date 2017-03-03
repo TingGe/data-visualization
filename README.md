@@ -1,6 +1,14 @@
 # data-visualization
 数据可视化：基于d3.js 或 fabric.js 等
 
+## 市场图表
+
+| 图表                                       | 特点   |
+| ---------------------------------------- | ---- |
+| [Echarts](http://echarts.baidu.com/index.html) |      |
+| [G2](https://antv.alipay.com/index.html) |      |
+| [vega](https://vega.github.io/vega/)     |      |
+
 ## 项目
 
 ### 图片标定
