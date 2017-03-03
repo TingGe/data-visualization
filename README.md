@@ -3,11 +3,21 @@
 
 ## 市场图表
 
-| 图表                                       | 特点   |
+### 偏展现图表
+
+| 图表                                       | 特点   |
 | ---------------------------------------- | ---- |
 | [Echarts](http://echarts.baidu.com/index.html) |      |
 | [G2](https://antv.alipay.com/index.html) |      |
 | [vega](https://vega.github.io/vega/)     |      |
+
+### 偏交互图表
+
+| 图表                                 | 特点   |
+| ---------------------------------- | ---- |
+| [Fabric.js](http://fabricjs.com/)  |      |
+| [konva](http://konvajs.github.io/) |      |
+| [D3](https://d3js.org/)            |      |
 
 ## 项目
 
