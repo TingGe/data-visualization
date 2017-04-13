@@ -5,7 +5,7 @@
 
 ### 偏展现图表
 
-| 图表                                       | 特点   |
+| 图表                                       | 特点   |
 | ---------------------------------------- | ---- |
 | [Echarts](http://echarts.baidu.com/index.html) |      |
 | [G2](https://antv.alipay.com/index.html) |      |
@@ -18,6 +18,15 @@
 | [Fabric.js](http://fabricjs.com/)  |      |
 | [konva](http://konvajs.github.io/) |      |
 | [D3](https://d3js.org/)            |      |
+
+### 其它
+
+| 图表                                       | 特点            |
+| ---------------------------------------- | ------------- |
+| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现 |
+| [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎       |
+|                                          |               |
+
 
 ## 项目
 
@@ -72,4 +81,5 @@ netflow：借鉴 Google Analytics 行为流 ，修改自 [netFlow](https://githu
 (The MIT License)
 
 Copyright (c)  Ting Ge [505253293@163.com](mailto:505253293@163.com)
+
 
