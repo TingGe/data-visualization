@@ -25,7 +25,7 @@
 | ---------------------------------------- | ------------- |
 | [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现 |
 | [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎       |
-|                                          |               |
+| [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化  |
 
 
 ## 项目
