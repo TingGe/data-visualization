@@ -18,6 +18,7 @@
 | [Fabric.js](http://fabricjs.com/)  |      |
 | [konva](http://konvajs.github.io/) |      |
 | [D3](https://d3js.org/)            |      |
+| [JavaScript InfoVis Toolkit](https://github.com/philogb/jit) |      |
 
 ### 其它
 
