@@ -13,20 +13,21 @@
 
 ### 偏交互图表
 
-| 图表                                 | 特点   |
-| ---------------------------------- | ---- |
-| [Fabric.js](http://fabricjs.com/)  |      |
-| [konva](http://konvajs.github.io/) |      |
-| [D3](https://d3js.org/)            |      |
-| [JavaScript InfoVis Toolkit](https://github.com/philogb/jit) |      |
+| 图表                                       | 特点                                       |
+| ---------------------------------------- | ---------------------------------------- |
+| [Fabric.js](http://fabricjs.com/)        |                                          |
+| [konva](http://konvajs.github.io/)       |                                          |
+| [D3](https://d3js.org/)                  |                                          |
+| [JavaScript InfoVis Toolkit](https://github.com/philogb/jit) |                                          |
+| [Protovis](http://mbostock.github.io/protovis/ex/) | D3.js 前身，使用SVG的可视化JS。从后续发展看，不建议在新项目中采用。如重新设计新可视化JS，可参考。 |
 
 ### 其它
 
-| 图表                                       | 特点            |
-| ---------------------------------------- | ------------- |
-| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现 |
-| [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎       |
-| [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化  |
+| 图表                                       | 特点                   |
+| ---------------------------------------- | -------------------- |
+| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现        |
+| [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎              |
+| [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化         |
 | [Phaser](https://github.com/photonstorm/phaser) | HTML5 Game Framework |
 
 
