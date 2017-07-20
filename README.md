@@ -10,6 +10,7 @@
 | [Echarts](http://echarts.baidu.com/index.html) |      |
 | [G2](https://antv.alipay.com/index.html) |      |
 | [vega](https://vega.github.io/vega/)     |      |
+| [Vega-Lite](https://vega.github.io/vega/) |      |
 
 ### 偏交互图表
 
@@ -29,6 +30,8 @@
 | [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎              |
 | [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化         |
 | [Phaser](https://github.com/photonstorm/phaser) | HTML5 Game Framework |
+| [AnyPixel.js](http://googlecreativelab.github.io/anypixel) | 谷歌，个人认为比较适合交互式大屏     |
+|                                          |                      |
 
 
 ## 项目
