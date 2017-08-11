@@ -68,6 +68,7 @@ netflow：借鉴 Google Analytics 行为流 ，修改自 [netFlow](https://githu
 
 ## 附录
 
+- [数据可视化工具目录](http://www.datavizcatalogue.com/ZH/index.html)
 - [Sankey Diagrams](https://bost.ocks.org/mike/sankey/)
 - [读书笔记 - 数据可视化实践](http://blog.lyuehh.com/book/2013/05/25/reading-notes-Interactive-Data-Visualization.html)
 - [F1 Championship Points as a d3.js Powered Sankey Diagram](https://blog.ouseful.info/2012/05/24/f1-championship-points-as-a-d3-js-powered-sankey-diagram/)
