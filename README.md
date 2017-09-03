@@ -24,14 +24,15 @@
 
 ### 其它
 
-| 图表                                       | 特点                   |
-| ---------------------------------------- | -------------------- |
-| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现        |
-| [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎              |
-| [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化         |
-| [Phaser](https://github.com/photonstorm/phaser) | HTML5 Game Framework |
-| [AnyPixel.js](http://googlecreativelab.github.io/anypixel) | 谷歌，个人认为比较适合交互式大屏     |
-|                                          |                      |
+| 图表                                       | 特点                                       |
+| ---------------------------------------- | ---------------------------------------- |
+| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现                            |
+| [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎                                  |
+| [whs.js](https://github.com/WhitestormJS/whs.js) | 基于Three.js，适用于 Web 应用程序与游戏的3D框架          |
+| [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化                             |
+| [Phaser](https://github.com/photonstorm/phaser) | HTML5 Game Framework                     |
+| [AnyPixel.js](http://googlecreativelab.github.io/anypixel) | 谷歌，个人认为比较适合交互式大屏                         |
+| [LayerVisualizer](https://github.com/romannurik/LayerVisualizer) | 一个简单的基于Web的3D图层（可用于可视化材质UI和涉及深度/阴影的其他事物） |
 
 
 ## 项目
