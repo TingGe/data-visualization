@@ -3,14 +3,22 @@
 
 ## 市场图表
 
+> 个人经验：
+>
+> 偏展现场景，建议优先采用类置标语言（Markup Language）的类库，直观；偏交互场景，选用易编程、易定制的类库。
+
 ### 偏展现图表
 
-| 图表                                       | 特点   |
-| ---------------------------------------- | ---- |
-| [Echarts](http://echarts.baidu.com/index.html) |      |
-| [G2](https://antv.alipay.com/index.html) |      |
-| [vega](https://vega.github.io/vega/)     |      |
-| [Vega-Lite](https://vega.github.io/vega/) |      |
+| 图表                                       | 特点                                       |
+| ---------------------------------------- | ---------------------------------------- |
+| [Echarts](http://echarts.baidu.com/index.html) |                                          |
+| [G2](https://antv.alipay.com/index.html) |                                          |
+| [Viserjs](https://github.com/viserjs/viser) | 基于 [G2](https://github.com/antvis/g2) 的图形库，置标语言（ Markup Language）使用方式，支持 React、Angular 和Vue，由 [Recharts](https://github.com/recharts/recharts) 等成员开发 |
+| [Recharts](https://github.com/recharts/recharts) | 对 React 和 D3 的封装，置标语言（ Markup Language）使用方式，对 React 支持友好，由 Alibaba 成员发起 |
+| [Frappé Charts](https://github.com/frappe/charts) | 基于 SVG                                   |
+| [SVG.js](https://github.com/svgdotjs/svg.js) | 将 SVG 的置标语言使用方式封装成了一套类似 Canvas （或 D3）的 APIs，增强了 SVG 的交互开发体验 |
+| [Vega](https://vega.github.io/vega/)     |                                          |
+| [Vega-Lite](https://vega.github.io/vega-lite/) |                                          |
 
 ### 偏交互图表
 
