@@ -34,7 +34,7 @@
 
 | 图表                                       | 特点                                       |
 | ---------------------------------------- | ---------------------------------------- |
-| [Deck.gl](https://github.com/uber/deck.gl) | WebGL 大规模数据展现                            |
+| [Deck.gl](https://github.com/uber/deck.gl) | Uber 的一个 WebGL 大规模数据展现库。其他还有 [luma.gl](https://uber.github.io/luma.gl/#/)、[react-vis](https://uber.github.io/react-vis/)、[react-map-gl](https://uber.github.io/react-map-gl/) |
 | [Planck.js](https://github.com/shakiba/planck.js) | 2D 物理引擎                                  |
 | [whs.js](https://github.com/WhitestormJS/whs.js) | 基于Three.js，适用于 Web 应用程序与游戏的3D框架          |
 | [Embedding Projector](https://www.tensorflow.org/get_started/embedding_viz) | 谷歌开源的高维数据可视化                             |
@@ -97,5 +97,3 @@ netflow：借鉴 Google Analytics 行为流 ，修改自 [netFlow](https://githu
 (The MIT License)
 
 Copyright (c)  Ting Ge [505253293@163.com](mailto:505253293@163.com)
-
-
